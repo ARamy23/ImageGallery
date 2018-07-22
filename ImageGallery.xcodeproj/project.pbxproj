@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		5F6F7B2421024EF30016FB3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F7B2321024EF30016FB3B /* AppDelegate.swift */; };
-		5F6F7B2621024EF30016FB3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F7B2521024EF30016FB3B /* ViewController.swift */; };
+		5F6F7B2621024EF30016FB3B /* ImageArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F7B2521024EF30016FB3B /* ImageArtViewController.swift */; };
 		5F6F7B2921024EF30016FB3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6F7B2721024EF30016FB3B /* Main.storyboard */; };
 		5F6F7B2C21024EF30016FB3B /* ImageGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F7B2A21024EF30016FB3B /* ImageGallery.xcdatamodeld */; };
 		5F6F7B2E21024EF80016FB3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6F7B2D21024EF80016FB3B /* Assets.xcassets */; };
 		5F6F7B3121024EF80016FB3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6F7B2F21024EF80016FB3B /* LaunchScreen.storyboard */; };
+		5F6F7B39210250960016FB3B /* ImageArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F7B38210250960016FB3B /* ImageArtView.swift */; };
+		5F6F7B3B2102552C0016FB3B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F7B3A2102552C0016FB3B /* Utilities.swift */; };
+		5F6F7B3D21025C1A0016FB3B /* ImageArtDocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F7B3C21025C1A0016FB3B /* ImageArtDocumentTableViewController.swift */; };
+		5FF3618C21036D9D00CA4AB7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3618B21036D9D00CA4AB7 /* Settings.swift */; };
+		5FF36191210381DB00CA4AB7 /* EmojiArtView+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF36190210381DB00CA4AB7 /* EmojiArtView+Gestures.swift */; };
+		5FF36198210392C800CA4AB7 /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF36197210392C800CA4AB7 /* GalleryCollectionViewController.swift */; };
+		5FF3619F2103D41B00CA4AB7 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3619D2103D41A00CA4AB7 /* GalleryCollectionViewCell.swift */; };
+		5FF361A02103D41B00CA4AB7 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF3619E2103D41A00CA4AB7 /* GalleryCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F6F7B2021024EF30016FB3B /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6F7B2321024EF30016FB3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F6F7B2521024EF30016FB3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F6F7B2521024EF30016FB3B /* ImageArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageArtViewController.swift; sourceTree = "<group>"; };
 		5F6F7B2821024EF30016FB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F6F7B2B21024EF30016FB3B /* ImageGallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageGallery.xcdatamodel; sourceTree = "<group>"; };
 		5F6F7B2D21024EF80016FB3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F6F7B3021024EF80016FB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F6F7B3221024EF80016FB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6F7B38210250960016FB3B /* ImageArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageArtView.swift; sourceTree = "<group>"; };
+		5F6F7B3A2102552C0016FB3B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5F6F7B3C21025C1A0016FB3B /* ImageArtDocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageArtDocumentTableViewController.swift; sourceTree = "<group>"; };
+		5FF3618B21036D9D00CA4AB7 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5FF36190210381DB00CA4AB7 /* EmojiArtView+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EmojiArtView+Gestures.swift"; sourceTree = "<group>"; };
+		5FF36197210392C800CA4AB7 /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		5FF3619D2103D41A00CA4AB7 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		5FF3619E2103D41A00CA4AB7 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,47 @@
 		5F6F7B2221024EF30016FB3B /* ImageGallery */ = {
 			isa = PBXGroup;
 			children = (
-				5F6F7B2321024EF30016FB3B /* AppDelegate.swift */,
-				5F6F7B2521024EF30016FB3B /* ViewController.swift */,
+				5FF3618B21036D9D00CA4AB7 /* Settings.swift */,
+				5FF361962103925C00CA4AB7 /* Controller */,
+				5FF361952103924B00CA4AB7 /* View */,
 				5F6F7B2721024EF30016FB3B /* Main.storyboard */,
 				5F6F7B2D21024EF80016FB3B /* Assets.xcassets */,
-				5F6F7B2F21024EF80016FB3B /* LaunchScreen.storyboard */,
 				5F6F7B3221024EF80016FB3B /* Info.plist */,
 				5F6F7B2A21024EF30016FB3B /* ImageGallery.xcdatamodeld */,
+				5FF361942103922B00CA4AB7 /* Supporting Files */,
 			);
 			path = ImageGallery;
+			sourceTree = "<group>";
+		};
+		5FF361942103922B00CA4AB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F7B2321024EF30016FB3B /* AppDelegate.swift */,
+				5F6F7B2F21024EF80016FB3B /* LaunchScreen.storyboard */,
+				5F6F7B3A2102552C0016FB3B /* Utilities.swift */,
+				5FF36190210381DB00CA4AB7 /* EmojiArtView+Gestures.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FF361952103924B00CA4AB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F7B38210250960016FB3B /* ImageArtView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FF361962103925C00CA4AB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F7B2521024EF30016FB3B /* ImageArtViewController.swift */,
+				5F6F7B3C21025C1A0016FB3B /* ImageArtDocumentTableViewController.swift */,
+				5FF36197210392C800CA4AB7 /* GalleryCollectionViewController.swift */,
+				5FF3619D2103D41A00CA4AB7 /* GalleryCollectionViewCell.swift */,
+				5FF3619E2103D41A00CA4AB7 /* GalleryCollectionViewCell.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6F7B3121024EF80016FB3B /* LaunchScreen.storyboard in Resources */,
+				5FF361A02103D41B00CA4AB7 /* GalleryCollectionViewCell.xib in Resources */,
 				5F6F7B2E21024EF80016FB3B /* Assets.xcassets in Resources */,
 				5F6F7B2921024EF30016FB3B /* Main.storyboard in Resources */,
 			);
@@ -138,8 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6F7B2621024EF30016FB3B /* ViewController.swift in Sources */,
+				5F6F7B2621024EF30016FB3B /* ImageArtViewController.swift in Sources */,
+				5FF3619F2103D41B00CA4AB7 /* GalleryCollectionViewCell.swift in Sources */,
+				5FF36191210381DB00CA4AB7 /* EmojiArtView+Gestures.swift in Sources */,
 				5F6F7B2421024EF30016FB3B /* AppDelegate.swift in Sources */,
+				5F6F7B39210250960016FB3B /* ImageArtView.swift in Sources */,
+				5F6F7B3B2102552C0016FB3B /* Utilities.swift in Sources */,
+				5FF3618C21036D9D00CA4AB7 /* Settings.swift in Sources */,
+				5F6F7B3D21025C1A0016FB3B /* ImageArtDocumentTableViewController.swift in Sources */,
+				5FF36198210392C800CA4AB7 /* GalleryCollectionViewController.swift in Sources */,
 				5F6F7B2C21024EF30016FB3B /* ImageGallery.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ShaDiLiX.ImageGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -312,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ShaDiLiX.ImageGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
